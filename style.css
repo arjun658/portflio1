@@ -1,0 +1,204 @@
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    height: 40px;
+}
+    
+.navbar .logo{
+    
+    padding-left: 25px;
+    align-items: center;
+    color: red;
+    }
+
+.navbar .nav{
+    flex: 1;
+    text-align: right;
+    max-width: 1300px;
+    
+    }
+
+    
+
+.navbar .nav ul{
+    display:inline-block; 
+    list-style-type: none;
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+
+.navbar .nav ul li{
+    display:inline-block;
+    margin-left: 20px;
+    
+}
+ 
+.navbar .nav ul li h4{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.navbar .nav ul li h4:hover{
+    color: red;
+}
+
+.heading:before{
+    content: "My";
+    width: 1300px;
+    font-size: 2.5rem;
+    position: absolute;
+    top  :100px;
+    left: -1%;
+    margin-bottom: 10px;
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: black;
+}
+
+.heading:after{
+    content: "Projects";
+    width: 1200px;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 110px;
+    left: 9%;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    text-shadow: black;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: black;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+
+.item{
+     flex-wrap: wrap;
+   justify-content: space-between;
+   padding-left: 90px;
+   padding-right: 90px;
+   max-width: 1000px;
+   margin:auto;
+   margin-top: 50px;
+  
+}
+
+.item:hover{
+    transform: translateY(-5px);
+}
+
+
+.footer{
+    margin-top: 1.3rem;
+     width: 100%;
+    background-color: grey;
+    height: 200px;
+}
+
+.socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin-left: 20px;
+    height: 200px;
+    width: 50px;
+}
+
+
+.quicklink{
+    position: absolute;
+    left: 45%;
+    display: inline;
+    line-height: 1rem;
+    
+}
+
+.quicklink h2{
+    color: red;
+    
+}
+
+.quicklink h3{
+    margin-top: -5px;
+    margin-bottom: 4px;
+}
+
+
+.photo{
+    padding-left: 65%;
+    display: inline;
+    position: absolute;
+    bottom: -600px;
+    
+}
+
+.photo img{
+    border-radius: 70%;
+    padding-left: 0%;
+}
+
+
+ .describe h3{
+    margin-top: 16px;
+    margin-left: -5%;
+}
+.describe p{
+    margin-bottom: 30px;
+    margin-top: -15px;
+    margin-left: -18%;
+    width: 200px;
+    line-height: 1.3rem;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+
+.heading .h1{
+    font-size: 1.3rem;
+}
+
+.heading h1 span{
+    color: red;
+}
+
+.heading p{
+    color: gray;
+}
+
+.contact{
+    position:absolute;
+    left: 2%;
+    bottom: -530px;
+}
+
+.contact .email{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.email h4{
+    color: red;
+    text-indent: none;
+}
+
+.phone{
+    margin-top: -10px;
+    margin-bottom: -30px;
+    width: fit-content;
+}
+.phone h4{
+    color: red;
+}
+
